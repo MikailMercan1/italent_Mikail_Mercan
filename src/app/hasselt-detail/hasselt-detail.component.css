@@ -1,11 +1,8 @@
 .card{
     margin: 5px;
+    opacity: 0.8;
     height: 80px;
     text-shadow: 1px 0 0 grey, 0 -1px 0 grey, 0 1px 0 grey, -1px 0 0 grey;
-}
-
-.cmb{
-    margin-bottom: 150px;
 }
 
 .hasselt-logo-div{
@@ -16,4 +13,29 @@
 
 .hasselt-logo{
     width:100%;
+}
+
+.side-banner{
+    opacity: 0.8;
+}
+.banner-left{
+    background-image: url("../../assets/images/Hasselt-e1560955084693.jpg") ;
+    background-size: cover;   
+}
+
+.row-custom{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+  
+
+.banner-right{
+    background-image: url("../../assets/images/hasselt_stad.png") ;
+    background-size: cover;   
+}
+.no-padding{
+    padding-right:0;
+    padding-left:0;
 }
