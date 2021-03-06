@@ -1,0 +1,19 @@
+.card{
+    margin: 5px;
+    height: 80px;
+    text-shadow: 1px 0 0 grey, 0 -1px 0 grey, 0 1px 0 grey, -1px 0 0 grey;
+}
+
+.cmb{
+    margin-bottom: 150px;
+}
+
+.hasselt-logo-div{
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hasselt-logo{
+    width:100%;
+}

@@ -1,0 +1,134 @@
+<!---<div class="container">
+    <div class="row">
+        <div  class="col bg-primary">
+            <p class="legend">Legenda</p>
+            <div>
+                <div class="col-sm-2-2"> 
+                    <span>
+                        <div class="circle-hasselt">
+                        </div>
+                    </span>
+                    <p>Hasselt</p>
+                </div>
+                <div class="col-sm-2-2">
+                    <span>
+                        <div class="circle-brussels">
+                        </div>
+                    </span>
+                <p>Brussel</p>
+                </div>
+            </div>
+        </div>
+        <div  class="col-5">
+            <img class="belgium-map"  src="../../assets/images/belgium_map.png" id="map"/>
+                <svg class="overlay-map" xmlns="http://www.w3.org/2000/svg">
+                    <circle [attr.cx]="circleCentroidXHasselt" [attr.cy]="circleCentroidYHasselt" r="5" [attr.fill]="circleColorHasselt" id="Hasselt"/>
+                    <circle [attr.cx]="circleCentroidXBrussels" [attr.cy]="circleCentroidYBrussels" r="5" [attr.fill]="circleColorBrussels" id="Brussels"/>
+                </svg>
+        </div>
+        <div  class="col bg-success">
+            cccccccc
+        </div>
+        
+        
+    </div>
+</div>
+-->
+
+<!--<div class="container">
+    <div class="row">
+        <div class="col bg-primary">
+            <img class="belgium-map"  src="../../assets/images/belgium_map.png" id="map"/>
+            <svg class="overlay-map" xmlns="http://www.w3.org/2000/svg">
+                <circle [attr.cx]="circleCentroidXHasselt" [attr.cy]="circleCentroidYHasselt" r="5" [attr.fill]="circleColorHasselt" id="Hasselt"/>
+                <circle [attr.cx]="circleCentroidXBrussels" [attr.cy]="circleCentroidYBrussels" r="5" [attr.fill]="circleColorBrussels" id="Brussels"/>
+            </svg>
+                
+        </div>
+        
+        <div class="col bg-secondary" id="eventDiv">
+            <div>
+                <p class="event-list-title">Activiteiten</p>
+            </div>
+            <div class="border border-dark rounded w-250">
+                <ul>
+                    <li class="event-list-item" *ngFor="let event of eventsToDisplay">{{event}}</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="col bg-success legend-div">
+            <p class="legend">Legenda</p>
+            <div>
+                <div class="col-sm-2-2"> <span><div class="circle-hasselt"></div></span>
+                <p>Hasselt</p>
+                <div class="col-sm-2-2"> <span><div class="circle-brussels"></div></span>
+                <p>Brussel</p>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+<div class="container container-div">
+    <div class="row">
+        <div  class="col-2 legend-div ">
+            <p class="legend">Legenda</p>
+            <div>
+                <div class="col-sm-2-2"> 
+                    <span>
+                        <div class="circle-hasselt">
+                        </div>
+                    </span>
+                    <p class="legend-item">Hasselt</p>
+                </div>
+                <div class="col-sm-2-2">
+                    <span>
+                        <div class="circle-brussels">
+                        </div>
+                    </span>
+                <p class="legend-item">Brussel</p>
+                </div>
+                <div class="col-sm-2-2">
+                    <span>
+                        <div class="circle-sint-truiden">
+                        </div>
+                    </span>
+                <p class="legend-item">Sint-Truiden</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-7 mr-auto">
+            <img class="belgium-map"  src="../../assets/images/belgium_map.png" id="map"/>
+            <svg class="overlay-map" xmlns="http://www.w3.org/2000/svg">
+                <circle [attr.cx]="circleCentroidXHasselt" [attr.cy]="circleCentroidYHasselt" r="5" [attr.fill]="circleColorHasselt" id="Hasselt"/>
+                <circle [attr.cx]="circleCentroidXBrussels" [attr.cy]="circleCentroidYBrussels" r="5" [attr.fill]="circleColorBrussels" id="Brussels"/>
+                <circle [attr.cx]="circleCentroidXSintTruiden" [attr.cy]="circleCentroidYSintTruiden" r="5" [attr.fill]="circleColorSintTruiden" id="Sint-Truiden"/>
+            </svg>
+        </div>
+
+        <div class="col-3 event-div" id="eventDiv">
+            <div>
+                <p class="event-list-title">Activiteiten</p>
+            </div>
+            <div class="border border-dark rounded w-250">
+                <ul>
+                    <li class="event-list-item" *ngFor="let event of eventsToDisplay">{{event}}</li>
+                </ul>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
