@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HasseltDetailComponent implements OnInit {
 
-  events = [["event1", "#99ff99"], ["event2", "#66ffff"], ["event3", "#9999ff"], ["event4", "#ff99cc"], ["event5", "#ffff66 "], ["event6", "#ccff66"]]
+  events = [["pop sessie 4 test test test test test", "#99ff99"], ["event2", "#66ffff"], ["event3", "#9999ff"], ["event4", "#ff99cc"], ["event5", "#ffff66 "], ["event6", "#ccff66"]]
 
   constructor() { }
 

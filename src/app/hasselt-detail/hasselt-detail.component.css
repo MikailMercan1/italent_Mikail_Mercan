@@ -5,21 +5,40 @@
     text-shadow: 1px 0 0 grey, 0 -1px 0 grey, 0 1px 0 grey, -1px 0 0 grey;
 }
 
+.end-of-page-div{
+    margin-bottom: 10%;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.end-of-page-image{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    right: -9999px;
+    bottom: -9999px;
+    margin: auto;
+}
+
 .hasselt-logo-div{
     max-width: 250px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .hasselt-logo{
     width:100%;
 }
 
-.side-banner{
-    opacity: 0.8;
-}
 .banner-left{
     background-image: url("../../assets/images/Hasselt-e1560955084693.jpg") ;
+    background-size: cover;   
+}
+
+.banner-right{
+    background-image: url("../../assets/images/hasselt_stad.png") ;
     background-size: cover;   
 }
 
@@ -29,13 +48,27 @@
     width: 100%;
 }
 
-  
-
-.banner-right{
-    background-image: url("../../assets/images/hasselt_stad.png") ;
-    background-size: cover;   
+.row-custom-two{
+    margin-bottom: 0 !important;
 }
+
 .no-padding{
     padding-right:0;
     padding-left:0;
 }
+
+.center-items{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+.center-cards{
+    margin-left: 2%;
+}
+
+@media all and (max-width: 800px) {
+    .end-of-page-div { display: none; }
+    .hasselt-text-div{ margin-bottom: 15%;}
+  }
