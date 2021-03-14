@@ -15,6 +15,8 @@ export class EventComponent implements OnInit {
   products: any = (jsonData as any).default;
   title: string;
   text: string;
+  images: string;
+  photos= "";
 
   constructor(private dataService: DataService) { }
 
@@ -24,8 +26,16 @@ export class EventComponent implements OnInit {
     const index = this.events.indexOf(this.data);
     if(index > -1){
       console.log()
-      this.title = this.products[index].name
-      this.text = this.products[index].text
+      this.title = this.products[index].name;
+      this.text = this.products[index].text;
+      this.images = this.products[index].images;
+      var imagesArray = this.images.split(",")
+      if(imagesArray.length > 0){
+
+      }
+      for(var i = 0; i < this.images.length; i++) {
+        this.photos = "Photo's"
+      }
     } else {
       this.title = "Something went wrong."
     }
