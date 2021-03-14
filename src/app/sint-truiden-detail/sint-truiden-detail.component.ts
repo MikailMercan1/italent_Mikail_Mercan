@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sint-truiden-detail',
@@ -9,7 +11,7 @@ export class SintTruidenDetailComponent implements OnInit {
 
   events = [["pop sessie 4 test test test test test", "#99ff99"], ["event2", "#66ffff"], ["event3", "#9999ff"], ["event4", "#ff99cc"], ["event5", "#ffff66 "], ["event6", "#ccff66"]]
 
-  constructor() { }
+  constructor(private router: Router, private dataService: DataService) { }
 
   ngOnInit(): void {
     this.createPage();
@@ -27,7 +29,8 @@ export class SintTruidenDetailComponent implements OnInit {
 
 
   openEvent(event: string){
-    console.log(event)
+    this.dataService.data = event
+    this.router.navigate(['/event'])
   }
 
 }

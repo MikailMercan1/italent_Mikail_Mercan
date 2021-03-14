@@ -7,6 +7,7 @@ import { SintTruidenDetailComponent } from './sint-truiden-detail/sint-truiden-d
 import { HomeComponent } from './home/home.component';
 import { XFactorComponent } from './x-factor/x-factor.component';
 import { ContactComponent } from './contact/contact.component';
+import { EventComponent } from './event/event.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'map/Sint-Truiden', component: SintTruidenDetailComponent},
   {path: 'x-factor', component: XFactorComponent},
   {path: 'contact', component: ContactComponent},
+  {path: 'event', component: EventComponent}
 
 
 ];

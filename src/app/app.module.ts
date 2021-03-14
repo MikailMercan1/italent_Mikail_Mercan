@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { XFactorComponent } from './x-factor/x-factor.component';
 import { SintTruidenDetailComponent } from './sint-truiden-detail/sint-truiden-detail.component';
+import { EventComponent } from './event/event.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SintTruidenDetailComponent } from './sint-truiden-detail/sint-truiden-d
     ContactComponent,
     HomeComponent,
     XFactorComponent,
-    SintTruidenDetailComponent
+    SintTruidenDetailComponent,
+    EventComponent
   ],
   imports: [
     BrowserModule,
