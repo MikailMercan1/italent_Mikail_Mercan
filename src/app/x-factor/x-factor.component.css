@@ -1,0 +1,22 @@
+.logo{
+    max-height: 380px;
+}
+
+.centered {
+    position: fixed;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .arrow{
+      height: 50px;
+  }
+
+  .display-text{
+      height: 500px;
+  }
+
+  .outer-div{
+      width: 700px;
+  }
