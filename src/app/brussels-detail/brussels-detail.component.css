@@ -34,12 +34,10 @@
 }
 
 .banner-left{
-    background-image: url("../../assets/images/br.jpg") ;
     background-size: cover;   
 }
 
 .banner-right{
-    background-image: url("../../assets/images/br2.jpg") ;
     background-size: cover;   
 }
 

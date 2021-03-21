@@ -12,6 +12,8 @@ export class HasseltDetailComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    document.getElementById('banner1').style.backgroundImage = "url('../../assets/images/ha_banner_2.jpg')";
+    document.getElementById('banner2').style.backgroundImage = "url('../../assets/images/ha_banner_1.png')" ;
     this.createPage();
   }
 

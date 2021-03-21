@@ -29,8 +29,9 @@
 .legend-div {
     position: fixed;
     top: 62%;
-    margin-top:50px;
+    margin-top: 80px;
     margin-right: 20%;
+    left: 9%;
     line-height: 0.1;
 
 }

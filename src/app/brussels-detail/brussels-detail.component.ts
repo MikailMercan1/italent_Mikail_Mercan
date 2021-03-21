@@ -12,6 +12,8 @@ export class BrusselsDetailComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    document.getElementById('banner2').style.backgroundImage = "url('../../assets/images/br_banner_2.jpg')";
+    document.getElementById('banner1').style.backgroundImage = "url('../../assets/images/br_banner_1.jpg')" ;
     this.createPage();
   }
 

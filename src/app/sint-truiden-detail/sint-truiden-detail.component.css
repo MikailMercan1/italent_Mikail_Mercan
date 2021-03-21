@@ -33,12 +33,10 @@
 }
 
 .banner-left{
-    background-image: url("../../assets/images/sint-truiden.jpg") ;
     background-size: cover;   
 }
 
 .banner-right{
-    background-image: url("../../assets/images/ab1.jpg") ;
     background-size: cover;   
 }
 

@@ -14,7 +14,10 @@ export class SintTruidenDetailComponent implements OnInit {
   constructor(private router: Router, private dataService: DataService) { }
 
   ngOnInit(): void {
+    document.getElementById('banner1').style.backgroundImage = "url('../../assets/images/st_banner_2.jpg')";
+    document.getElementById('banner2').style.backgroundImage = "url('../../assets/images/st_banner_1.jpg')" ;
     this.createPage();
+    
   }
 
   createPage() {
