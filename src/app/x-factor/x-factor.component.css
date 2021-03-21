@@ -3,8 +3,8 @@
 }
 
 .centered {
-    position: fixed;
-    top: 57%;
+    position: absolute;
+    margin-top: 360px;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -13,8 +13,11 @@
       height: 50px;
   }
 
-  .display-text{
-      height: 500px;
+  .under{
+    position: absolute;
+    margin-top: 720px;
+    text-align: center;
+    left: 17.5%;
   }
 
   .outer-div{
