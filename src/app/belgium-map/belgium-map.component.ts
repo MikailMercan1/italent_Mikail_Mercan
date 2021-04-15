@@ -27,8 +27,8 @@ export class BelgiumMapComponent implements OnInit {
   //first x, then y coordinate
   places = [
      {coordinates: [335,180], name: 'Brussels', color: 'black', events: ["De Warmste Hackathon"]},
-     {coordinates: [490,143], name: 'Hasselt', color: 'red', events: ["evmfksdlkfmskfskdent 1dfsmlkf", "evesdmlfksmdlfmsdt2 fdssf", "esdfsdfsdfvent3"]},
-     {coordinates: [483,184], name: 'Sint-Truiden', color: 'blue', events: ["evmfksdlkfmskfskdent 1dfsmlkf", "evesdmlfksmdlfmsdt2 fdssf", "esdfsdfsdfvent3"]}
+     {coordinates: [490,143], name: 'Hasselt', color: 'red', events: ["Projectweek 2019-2020", "Machine learning", "Firebase", "Brein aan het werk, niet storen!", "POPping", "Low code", "Blockchain (deel 1)", "Blockchain (deel 2)"]},
+     {coordinates: [483,184], name: 'Sint-Truiden', color: 'blue', events: ["Op weg naar 5G", "Uitdagingen in de wereld van e-forensics & cybercrime", "Google Hash Code 2021"]}
    ];
 
   constructor(private router: Router) {
@@ -87,7 +87,7 @@ export class BelgiumMapComponent implements OnInit {
         //Set onclick event
         sintTruidenCircle.addEventListener("click", (e:Event) => this.goToDetailPage("map/" + this.places[2].name));
         //Set mouseover event
-        sintTruidenCircle.addEventListener("mouseover", (e:Event) => this.displayInfo(this.places[0].events));
+        sintTruidenCircle.addEventListener("mouseover", (e:Event) => this.displayInfo(this.places[2].events));
         //Set mouseout event
         sintTruidenCircle.addEventListener("mouseout", (e:Event) => this.removeInfo());
 

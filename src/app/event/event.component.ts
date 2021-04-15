@@ -10,25 +10,30 @@ import * as jsonData from '../../assets/data-events/events.json';
 export class EventComponent implements OnInit {
 
   data: string;
-  events = ["event1", "event2", "event3"]
-  
   products: any = (jsonData as any).default;
+  
   title: string;
   text: string;
   images: string;
   photos= "";
+  itemIsFound = false;
 
   constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
+    
     this.data = this.dataService.data;
     this.dataService.data = undefined;
-    const index = this.events.indexOf(this.data);
-    if(index > -1){
-      console.log()
-      this.title = this.products[index].name;
-      this.text = this.products[index].text;
-      this.images = this.products[index].images;
+    for (let activity of this.products){
+      if(activity.name == this.data){
+        this.title = activity.name;
+        this.text = activity.text;
+        this.images = activity.images;
+        this.itemIsFound = true;
+      }
+    }
+
+    if(this.itemIsFound){
       var imagesArray = this.images.split(",")
       if(imagesArray.length > 0){
 
@@ -37,7 +42,7 @@ export class EventComponent implements OnInit {
         this.photos = "Photo's"
       }
     } else {
-      this.title = "Something went wrong."
+      this.title = "Something went wrong"
     }
     
   }

@@ -1,20 +1,52 @@
 [
     {
+        "id": 0,
+        "name": "event st 1",
+        "location": "Sint-Truiden",
+        "text": "tekst van projectweek",
+        "images": "filler.png"
+    },
+    {
         "id": 1,
-        "name": "event1",
-        "text": "lfmsd,f",
+        "name": "event st 2",
+        "location": "Sint-Truiden",
+        "text": "",
         "images": "filler.png"
     },
     {
         "id": 2,
-        "name": "event2",
-        "text": "Donderdag 25 februari 2021 om half zeven s ’avonds vond de jaarlijkse editie van Google’s codeerwedstrijd, Hash Code plaats. Deelnemers krijgen een technisch probleem voorgeschoteld waarvoor ze iets minder dan 4 uur de tijd krijgen om het op te lossen. Dit is een online gebeuren, sinds iedereen ter wereld de optie heeft om mee te doen. Wel werden hubs georganiseerd. Een hub is een overkoepelende groep waar je je als team bij kan aansluiten. Elke hub had eveneens een apart scorebord. \n Ik vormde samen met medestudent Tibo Tips een team om aan deze competitie mee te doen, onder teamnaam “PXL_team_8”. Ook hebben we ons team aangesloten aan Info Support BE hub. Deze bood toegang tot een virtuele ruimte via “gather town”. Via deze website kan je een karakter bewegen door een virtuele zaal, in combinatie met het gebruik van camera en microfoon (is dit goed). In deze zaal is het mogelijk om met verschillende objecten te interageren. Zo kan een team aan een tafel gaan zitten, waardoor teamleden enkel nog verstaanbaar zijn. Dit was een leuk initiatief van de hub organisatoren om verschillende teams samen te brengen tijdens de hackathon. ",
-        "images": "filler.png"
+        "name": "event st 3",
+        "location": "Sint-Truiden",
+        "text": "",
+        "images": "test.png, test2.png"
     },
     {
         "id": 3,
-        "name": "event3",
-        "text": "<i>ITALICS KIJK CODE HIER</i> 25 februari 2021 om half zeven s ’avonds vond de jaarlijkse editie van Google’s codeerwedstrijd, Hash Code plaats. Deelnemers krijgen een technisch probleem voorgeschoteld waarvoor ze iets minder dan 4 uur de tijd krijgen om het op te lossen. Dit is een online gebeuren, sinds iedereen ter wereld de optie heeft om mee te doen. Wel werden hubs georganiseerd. Een hub is een overkoepelende groep waar je je als team bij kan aansluiten. Elke hub had eveneens een apart scorebord.  <br><br> Ik vormde samen met medestudent Tibo Tips een team om aan deze competitie mee te doen, onder teamnaam “PXL_team_8”. Ook hebben we ons team aangesloten aan Info Support BE hub. Deze bood toegang tot een virtuele ruimte via “gather town”. Via deze website kan je een karakter bewegen door een virtuele zaal, in combinatie met het gebruik van camera en microfoon (is dit goed). In deze zaal is het mogelijk om met verschillende objecten te interageren. Zo kan een team aan een tafel gaan zitten, waardoor teamleden enkel nog verstaanbaar zijn. Dit was een leuk initiatief van de hub organisatoren om verschillende teams samen te brengen tijdens de hackathon. ",
+        "name": "event ha 1",
+        "location": "Hasselt",
+        "text": "",
+        "images": "test.png, test2.png"
+    },
+    {
+        "id": 4,
+        "name": "event st 4",
+        "location": "Sint-Truiden",
+        "text": "",
+        "images": "test.png, test2.png"
+    },
+    {
+        "id": 5,
+        "name": "event ha 2",
+        "location": "Hasselt",
+        "text": "",
+        "images": "test.png, test2.png"
+    },
+    {
+        "id": 6,
+        "name": "event br 1",
+        "location": "Brussel",
+        "text": "",
         "images": "test.png, test2.png"
     }
+    
 ]
