@@ -31,7 +31,7 @@ export class NavBarComponent implements OnInit {
 
   onClickContact() : void
   {
-    this.router.navigate(['/contact'])
+    window.location.href = 'https://be.linkedin.com/in/mikail-mercan-8839a51a1';
   }
 
   

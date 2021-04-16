@@ -16,7 +16,7 @@ const routes: Routes = [
   {path: 'map/Brussels', component: BrusselsDetailComponent},
   {path: 'map/Sint-Truiden', component: SintTruidenDetailComponent},
   {path: 'x-factor', component: XFactorComponent},
-  {path: 'contact', component: ContactComponent},
+  //{path: 'contact', component: ContactComponent},
   {path: 'event', component: EventComponent}
 
 
