@@ -10,39 +10,57 @@ import * as jsonData from '../../assets/data-all-events/all-events.json';
 export class HomeComponent implements OnInit {
 
   products = (jsonData as any).default;
-  titles = []
-  dates = []
-  companies = []
-  places = []
-  descriptions = []
+  cards = []
 
   constructor() { }
 
   ngOnInit(): void {
     for (let item of this.products){
-      this.titles.push(item.name)
-      this.dates.push(item.date)
-      this.companies.push(item.company)
-      this.places.push(item.place)
-      this.descriptions.push(item.text)
+      let card = new ActivityCard(item.name, item.text, item.id, item.date, item.company, item.place, item.isExtra)
+      this.cards.push(card)
     }
-    for (let i = 0; i <this.titles.length; i++){
+    for (let i = 0; i <this.cards.length; i++){
       var idTitle = "title" + i
       var idDescription = "description" + i
       var idCard = "card" + i
       var idDate = "date" + i
       var idCompany = "company" + i
       var idPlace = "place" + i
-      document.getElementById(idTitle).innerHTML = this.titles[i];
-      document.getElementById(idDate).innerHTML = "<b>Datum: </b>" + this.dates[i];
-      document.getElementById(idCompany).innerHTML = "<b>Bedrijf: </b>" + this.companies[i];
-      document.getElementById(idPlace).innerHTML = "<b>Locatie: </b>" + this.places[i];
-      document.getElementById(idDescription).innerHTML = "<b>Beschrijving: </b>" + this.descriptions[i];
-      
+      var idExtra = "extra" + i
+      document.getElementById(idTitle).innerHTML = this.cards[i].title;
+      document.getElementById(idDate).innerHTML = "<b>Datum: </b>" + this.cards[i].date;
+      document.getElementById(idCompany).innerHTML = "<b>Bedrijf: </b>" + this.cards[i].company;
+      document.getElementById(idPlace).innerHTML = "<b>Locatie: </b>" + this.cards[i].place;
+      document.getElementById(idDescription).innerHTML = "<b>Beschrijving: </b>" + this.cards[i].description;
+
       if(i % 2 == 0){
         document.getElementById(idCard).style.backgroundColor = "lightgrey"
+      }
+
+      if(this.cards[i].extra == "True"){
+        document.getElementById(idExtra).innerHTML = "<b>Extra activiteit </b>"
       }
     }
   }
 
+}
+
+class ActivityCard {
+  title: string;
+  description: string;
+  id: string;
+  date: string;
+  company: string;
+  place: string;
+  extra: string;
+
+  constructor(title: string, description: string, id: string, date: string, company: string, place: string, extra: string){
+    this.title = title;
+    this.description = description;
+    this.id = id;
+    this.date = date;
+    this.company = company;
+    this.place = place;
+    this.extra = extra;
+  }
 }

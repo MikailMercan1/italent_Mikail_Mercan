@@ -4,6 +4,7 @@
         "name": "event st 1",
         "location": "Sint-Truiden",
         "text": "tekst van projectweek",
+        "selected": "True",
         "images": "filler.png"
     },
     {
@@ -11,6 +12,7 @@
         "name": "event st 2",
         "location": "Sint-Truiden",
         "text": "",
+        "selected": "False",
         "images": "filler.png"
     },
     {
@@ -18,6 +20,7 @@
         "name": "event st 3",
         "location": "Sint-Truiden",
         "text": "",
+        "selected": "False",
         "images": "test.png, test2.png"
     },
     {
@@ -25,6 +28,7 @@
         "name": "event ha 1",
         "location": "Hasselt",
         "text": "",
+        "selected": "False",
         "images": "test.png, test2.png"
     },
     {
@@ -32,6 +36,7 @@
         "name": "event st 4",
         "location": "Sint-Truiden",
         "text": "",
+        "selected": "False",
         "images": "test.png, test2.png"
     },
     {
@@ -39,6 +44,7 @@
         "name": "event ha 2",
         "location": "Hasselt",
         "text": "",
+        "selected": "True",
         "images": "test.png, test2.png"
     },
     {
@@ -46,6 +52,7 @@
         "name": "event br 1",
         "location": "Brussel",
         "text": "",
+        "selected": "True",
         "images": "test.png, test2.png"
     }
     

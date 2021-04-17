@@ -5,6 +5,7 @@
         "date": "data1",
         "company": "company1",
         "place": "place1",
+        "isExtra": "False",
         "text": "text activity one"
     },
     {
@@ -13,6 +14,7 @@
         "date": "data2",
         "company": "company2",
         "place": "place2",
+        "isExtra": "False",
         "text": "text activity two"
     },
     {
@@ -21,6 +23,7 @@
         "date": "data3",
         "company": "company3",
         "place": "place3",
+        "isExtra": "True",
         "text": "text activity three"
     },
     {
@@ -29,6 +32,7 @@
         "date": "data4",
         "company": "company4",
         "place": "place4",
+        "isExtra": "False",
         "text": "text activity four"
     }
 ]

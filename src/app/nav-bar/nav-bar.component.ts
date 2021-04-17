@@ -29,9 +29,9 @@ export class NavBarComponent implements OnInit {
     this.router.navigate(['/x-factor'])
   }
 
-  onClickContact() : void
+  onClickFinalReflection() : void
   {
-    window.location.href = 'https://be.linkedin.com/in/mikail-mercan-8839a51a1';
+    this.router.navigate(['/final-reflection'])
   }
 
   

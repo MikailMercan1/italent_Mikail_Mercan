@@ -22,7 +22,8 @@ export class HasseltDetailComponent implements OnInit {
     document.getElementById('banner2').style.backgroundImage = "url('../../assets/images/ha_banner_1.png')" ;
     for (let activity of this.products) {
       if(activity.location == "Hasselt"){
-        this.events.push(activity.name)
+        let event = new Activity(activity.name, activity.selected)
+        this.events.push(event)
       }
     }
     this.createPage();
@@ -33,8 +34,13 @@ export class HasseltDetailComponent implements OnInit {
       var id = "card" + i;
       console.log(id)
       document.getElementById(id).style.background =  "linear-gradient(to bottom right, " + this.colors[i] + ", #ffffff 100%)";
-      document.getElementById(id).addEventListener("click", (e:Event) => this.openEvent(this.events[i]));
-      document.getElementById(id).innerHTML = this.events[i];
+      document.getElementById(id).addEventListener("click", (e:Event) => this.openEvent(this.events[i].eventTitle));
+      
+      if(this.events[i].isSelected == "True"){
+        document.getElementById(id).innerHTML = this.events[i].eventTitle + "⭐";
+      } else {
+        document.getElementById(id).innerHTML = this.events[i].eventTitle;
+      }
     }
   }
 
@@ -44,4 +50,14 @@ export class HasseltDetailComponent implements OnInit {
     this.router.navigate(['/event'])
   }
 
+}
+
+class Activity {
+  eventTitle: string;
+  isSelected: string;
+ 
+  constructor(eventTitle: string, isSelected: string){
+    this.eventTitle = eventTitle;
+    this.isSelected = isSelected;
+  }
 }

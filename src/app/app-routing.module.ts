@@ -4,9 +4,9 @@ import { BelgiumMapComponent } from './belgium-map/belgium-map.component';
 import { BrusselsDetailComponent } from './brussels-detail/brussels-detail.component';
 import { HasseltDetailComponent } from './hasselt-detail/hasselt-detail.component';
 import { SintTruidenDetailComponent } from './sint-truiden-detail/sint-truiden-detail.component'
+import { FinalReflectionComponent} from './final-reflection/final-reflection.component'
 import { HomeComponent } from './home/home.component';
 import { XFactorComponent } from './x-factor/x-factor.component';
-import { ContactComponent } from './contact/contact.component';
 import { EventComponent } from './event/event.component';
 
 const routes: Routes = [
@@ -16,7 +16,7 @@ const routes: Routes = [
   {path: 'map/Brussels', component: BrusselsDetailComponent},
   {path: 'map/Sint-Truiden', component: SintTruidenDetailComponent},
   {path: 'x-factor', component: XFactorComponent},
-  //{path: 'contact', component: ContactComponent},
+  {path: 'final-reflection', component: FinalReflectionComponent},
   {path: 'event', component: EventComponent}
 
 
