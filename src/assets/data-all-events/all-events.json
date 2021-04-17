@@ -2,21 +2,33 @@
     {
         "id": 0,
         "name": "activity 1",
+        "date": "data1",
+        "company": "company1",
+        "place": "place1",
         "text": "text activity one"
     },
     {
         "id": 1,
         "name": "activity 2",
+        "date": "data2",
+        "company": "company2",
+        "place": "place2",
         "text": "text activity two"
     },
     {
         "id": 2,
         "name": "activity 3",
+        "date": "data3",
+        "company": "company3",
+        "place": "place3",
         "text": "text activity three"
     },
     {
         "id": 3,
         "name": "activity 4",
+        "date": "data4",
+        "company": "company4",
+        "place": "place4",
         "text": "text activity four"
     }
 ]
