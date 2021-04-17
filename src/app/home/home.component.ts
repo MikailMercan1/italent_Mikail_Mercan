@@ -23,8 +23,12 @@ export class HomeComponent implements OnInit {
     for (let i = 0; i <this.titles.length; i++){
       var idTitle = "title" + i
       var idDescription = "description" + i
+      var idCard = "card" + i
       document.getElementById(idTitle).innerHTML = this.titles[i];
       document.getElementById(idDescription).innerHTML = this.descriptions[i];
+      if(i % 2 == 0){
+        document.getElementById(idCard).style.backgroundColor = "lightgrey"
+      }
     }
   }
 

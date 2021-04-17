@@ -15,11 +15,22 @@
 
   .under{
     position: absolute;
-    margin-top: 720px;
+    margin-top: 85px;
     text-align: center;
     left: 17.5%;
   }
 
   .outer-div{
       width: 700px;
+  }
+
+  .title-div{
+      margin-top: 570px;
+      text-align: center;
+  }
+
+  .title-p{
+      font-size: 26px;
+      text-align: center;
+      width: 100%;
   }

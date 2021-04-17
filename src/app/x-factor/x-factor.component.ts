@@ -23,18 +23,23 @@ export class XFactorComponent implements OnInit {
         if(this.currentFeature !== this.feature){
           this.currentFeature = this.feature;
           var text = document.getElementById("text")
+          var chosenItem = document.getElementById("chosenItem")
           if(this.currentFeature == "empassie"){
             this.products = (jsonData as any).default;
             text.innerHTML = this.products[0].text;
+            chosenItem.innerHTML = this.products[0].name;
           } else if(this.currentFeature == "ondernemend"){
             this.products = (jsonData as any).default;
             text.innerHTML = this.products[1].text;
+            chosenItem.innerHTML = this.products[1].name;
           } else if(this.currentFeature == "disciplinariteit"){
             this.products = (jsonData as any).default;
             text.innerHTML = this.products[2].text;
+            chosenItem.innerHTML = this.products[2].name;
           } else if(this.currentFeature == "samenwerken"){
             this.products = (jsonData as any).default;
             text.innerHTML = this.products[3].text;
+            chosenItem.innerHTML = this.products[3].name;
           }
         }
       },
