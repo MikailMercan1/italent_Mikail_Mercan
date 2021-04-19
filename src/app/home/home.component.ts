@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { range } from 'rxjs';
 import * as jsonData from '../../assets/data-all-events/all-events.json';
+import * as jsonDataIntro from '../../assets/introduction/intro.json';
 
 @Component({
   selector: 'app-home',
@@ -10,11 +11,16 @@ import * as jsonData from '../../assets/data-all-events/all-events.json';
 export class HomeComponent implements OnInit {
 
   products = (jsonData as any).default;
+  intro = (jsonDataIntro as any).default
   cards = []
 
   constructor() { }
 
   ngOnInit(): void {
+    // Intro
+    document.getElementById("intro").innerHTML = this.intro[0].text;
+
+    // Cards
     for (let item of this.products){
       let card = new ActivityCard(item.name, item.text, item.id, item.date, item.company, item.place, item.isExtra)
       this.cards.push(card)

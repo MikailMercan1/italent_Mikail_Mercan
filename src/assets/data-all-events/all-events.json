@@ -1,38 +1,110 @@
 [
     {
         "id": 0,
-        "name": "activity 1",
-        "date": "data1",
-        "company": "company1",
-        "place": "place1",
-        "isExtra": "False",
-        "text": "text activity one"
+        "name": "Hackathon: de Warmste Hackathon",
+        "date": "vrijdag 11/10/2019 18.00 uur - zaterdag 12/10/2019 18.00 uur <br> Deze activiteit leverde 16 uur op",
+        "company": "Realdolmen",
+        "place": "Odisee, Stormstraat 2, 1000 Brussel",
+        "isExtra": "True",
+        "text": "Het was de bedoeling om tijdens deze hackathon een applicatie te maken die de maatschappij verbetert. De opbrengst van deze hackathon ging naar de Warmste Week."
     },
     {
         "id": 1,
-        "name": "activity 2",
-        "date": "data2",
-        "company": "company2",
-        "place": "place2",
+        "name": "Projectweek 2019-2020",
+        "date": "maandag 10/02/2020 9.00 uur - vrijdag 14/02/2020 15.00 uur <br> Deze activiteit leverde 26 uur op",
+        "company": "Hogeschool PXL",
+        "place": "Hogeschool PXL, Elfde-Liniestraat 24, 3500 Hasselt",
         "isExtra": "False",
-        "text": "text activity two"
+        "text": "Deze activiteit vond plaats aan het begin van het tweede semester in het tweede jaar en bestond uit onder andere seminaries, infosessies en workshops. Ook was er een eerste contact met de teamgenoten waarmee het Research Project gemaakt werd."
     },
     {
         "id": 2,
-        "name": "activity 3",
-        "date": "data3",
-        "company": "company3",
-        "place": "place3",
-        "isExtra": "True",
-        "text": "text activity three"
+        "name": "Seminarie: machine <i> learning </i>",
+        "date": "dinsdag 18/02/2020 van 8.30 uur tot 12.30 uur <br> Deze activiteit leverde 3 uur op",
+        "company": "ACA IT-Solutions",
+        "place": "Hogeschool PXL, Elfde-Liniestraat 24, 3500 Hasselt, lokaal EB151",
+        "isExtra": "False",
+        "text": "Tijdens dit seminarie werden verschillende programma’s bekeken waaronder onder andere een programma dat zinnen vertaalt, een programma dat een zin met intonatie kan uitspreken en uiteindelijk een combinatieoefening."
     },
     {
         "id": 3,
-        "name": "activity 4",
-        "date": "data4",
-        "company": "company4",
-        "place": "place4",
+        "name": "Seminarie: Firebase",
+        "date": "dinsdag 25/02/2020 van 9.00 uur tot 12.00 uur <br> Deze activiteit leverde 3 uur op",
+        "company": "Bewire",
+        "place": "Hogeschool PXL, Elfde-Liniestraat 24, 3500 Hasselt, lokaal EB151",
         "isExtra": "False",
-        "text": "text activity four"
+        "text": "Tijdens dit seminarie werd een app gemaakt waardoor meerdere personen via spraak met elkaar konden communiceren. Dit gebeurde met behulp van Firebase."
+    },
+    {
+        "id": 4,
+        "name": "POP-sessie: brein aan het werk, niet storen!",
+        "date": "dinsdag 03/03/2020 van 8.30 uur tot 10.30 uur <br> Deze activiteit leverde 2 uur op",
+        "company": "Hogeschool PXL",
+        "place": "Hogeschool PXL, Elfde-Liniestraat 24, 3500 Hasselt, lokaal EB351",
+        "isExtra": "False",
+        "text": "Deze sessie ging over internetgebruik en tijdsindeling en had als doel om de deelnemers bewust te maken van het feit dat onnodig internetverbruik invloed heeft op productiviteit en concentratie."
+    },
+    {
+        "id": 5,
+        "name": "POP-sessie: POPping",
+        "date": "dinsdag 03/03/2020 van 13.30 uur tot 15.30 uur <br> Deze activiteit leverde 2 uur op",
+        "company": "Hogeschool PXL",
+        "place": "Hogeschool PXL, Elfde-Liniestraat 24, 3500 Hasselt, lokaal EB241",
+        "isExtra": "False",
+        "text": "Deze interactieve sessie bestond uit verschillende opdrachten zoals met andere deelnemers praten over verwachtingen voor de toekomst. De nadruk lag hier op zelfreflectie."
+    },
+    {
+        "id": 6,
+        "name": "Innovatieroute: low code",
+        "date": "vrijdag 8/10/2020 9.00 uur - zaterdag 9/10/2020 13.00 uur <br> Deze activiteit leverde 25 uur op",
+        "companies": "Grasshoppers Academy, iAdvise, Brightfox, Providit",
+        "place": "Hogeschool PXL, Elfde-Liniestraat 24, 3500 Hasselt",
+        "isExtra": "False",
+        "text": "De innovatieroute bevatte verschillende seminaries gegeven door verschillende bedrijven. Er werden ook enkele applicaties uitgewerkt aan de hand van verschillende low code platformen."
+    },
+    {
+        "id": 7,
+        "name": "Seminarie: blockchain (deel 1)",
+        "date": "woensdag 21/10/2020 van 9.00 uur tot 12.00 uur <br> Deze activiteit leverde 3 uur op",
+        "company": "SettleMint",
+        "place": "Hogeschool PXL, Elfde-Liniestraat 24, 3500 Hasselt, lokaal EB134",
+        "isExtra": "False",
+        "text": "Dit seminarie was een eerste deel binnen een tweedelige sessie. Het seminarie ging over hoe blockchain kan ingezet worden (binnen bedrijven)."
+    },
+    {
+        "id": 8,
+        "name": "Seminarie: blockchain (deel 2)",
+        "date": "woensdag 28/10/2020 van 9.00 uur tot 12.00 uur <br> Deze activiteit leverde 3 uur op",
+        "company": "SettleMint",
+        "place": "Hogeschool PXL, Elfde-Liniestraat 24, 3500 Hasselt, student hub (gebouw A)",
+        "isExtra": "False",
+        "text": "Dit seminarie is een vervolg op een eerder seminarie over blockchain. De evolutie van het internet kwam aan bod samen met de problemen die daarbij komen kijken en hoe blockchain hierbij kan helpen."
+    },
+    {
+        "id": 9,
+        "name": "Seminarie: op weg naar 5G",
+        "date": "woensdag 25/11/2020 van 9.00 uur tot 11.00 uur  <br> Deze activiteit leverde 3 uur op",
+        "company": "Ericsson",
+        "place": "Dit was een online seminarie en is van thuis uit gevolgd (Sint-Truiden).",
+        "isExtra": "False",
+        "text": "Dit seminarie ging over de evolutie van telefonie en het breedband mobiele netwerk. Ook kwamen onder meer enkele toepassingen van 5G aan bod."
+    },
+    {
+        "id": 10,
+        "name": "Seminarie: uitdagingen in de wereld van e-forensics & cybercrime",
+        "date": "woensdag 16/12/2020 van 9.00 uur tot 11.00 uur <br> Deze activiteit leverde 3 uur op",
+        "company": "RCCU",
+        "place": "Dit was een online seminarie en is van thuis uit gevolgd (Sint-Truiden).",
+        "isExtra": "False",
+        "text": "Dit seminarie gaf een breder beeld over de cel die zich bezighoudt met cybercrime in België en wat voor problemen deze behandelt."
+    },
+    {
+        "id": 11,
+        "name": "Hackathon: Google Hash Code 2021",
+        "date": "donderdag 25/02/2021 van 18.30 uur tot 22.30 uur <br> Deze activiteit leverde 25 uur op",
+        "company": "Info Support",
+        "place": "Deze activiteit verliep online en is van thuis uit gevolgd (Sint-Truiden).",
+        "isExtra": "False",
+        "text": "Dit is de jaarlijkse Google Hash Code codeerwedstrijd waar een technisch probleem opgelost wordt. Het team waar ik in zat heeft deelgenomen aan de oefenronde en kwalificatieronde."
     }
 ]
