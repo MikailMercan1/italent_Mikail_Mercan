@@ -4,7 +4,7 @@
 }
 
 .title {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 36px;
     margin-bottom: 0px;
     
@@ -28,7 +28,7 @@
 }
 
 .intro-text{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     margin-top: 15px;
     letter-spacing: 1px;
@@ -56,5 +56,5 @@
 }
 
 .style{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

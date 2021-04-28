@@ -41,7 +41,6 @@
 
 .center-text{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .center-div{
@@ -50,6 +49,10 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+}
+
+.style{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 

@@ -12,6 +12,10 @@
     position: relative;
 }
 
+.style{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .end-of-page-image{
     position: absolute;
     top: -9999px;
@@ -72,3 +76,5 @@
     .end-of-page-div { display: none; }
     .brussels-text-div{ margin-bottom: 15%;}
   }
+
+  
