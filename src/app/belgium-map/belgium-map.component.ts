@@ -27,8 +27,8 @@ export class BelgiumMapComponent implements OnInit {
   //first x, then y coordinate
   places = [
      {coordinates: [335,180], name: 'Brussels', color: 'black', events: ["De Warmste Hackathon"]},
-     {coordinates: [490,143], name: 'Hasselt', color: 'red', events: ["Projectweek 2019-2020", "Machine learning", "Firebase", "Brein aan het werk, niet storen!", "POPping", "Low code", "Blockchain (deel 1)", "Blockchain (deel 2)"]},
-     {coordinates: [483,184], name: 'Sint-Truiden', color: 'blue', events: ["Op weg naar 5G", "Uitdagingen in de wereld van e-forensics & cybercrime", "Google Hash Code 2021"]}
+     {coordinates: [490,143], name: 'Hasselt', color: 'red', events: ["Projectweek 2019-2020", "Machine learning", "Firebase", "Brein aan het werk, niet storen!", "POPping", "Low code", "Blockchain (deel één)", "Blockchain (deel twee)"]},
+     {coordinates: [483,184], name: 'Sint-Truiden', color: 'blue', events: ["Op weg naar 5G", "Uitdagingen in de wereld van e-forensics & cybercrime", "Google Hash Code 2021", "POP-sessie: my Team and I"]}
    ];
 
   constructor(private router: Router) {

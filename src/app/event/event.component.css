@@ -3,6 +3,22 @@
 }
 
 .custom-text{
-    text-align: center;
+    text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.custom-title{
+    text-align: center;
+}
+
+.im-container{
+    max-width: 500px;
+}
+
+.image{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    object-fit: contain;
+    visibility: hidden;
 }

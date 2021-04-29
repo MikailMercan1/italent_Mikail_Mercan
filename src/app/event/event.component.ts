@@ -35,14 +35,17 @@ export class EventComponent implements OnInit {
 
     if(this.itemIsFound){
       var imagesArray = this.images.split(",")
-      if(imagesArray.length > 0){
-
-      }
-      for(var i = 0; i < this.images.length; i++) {
-        this.photos = "Photo's"
+      console.log(imagesArray.length)
+      if(imagesArray.length > 0 && imagesArray[0] != ""){
+        this.photos = "Afbeeldingen"
+        for(var i = 0; i < imagesArray.length; i++) {
+          console.log(imagesArray[i] + "");
+          (document.getElementById("image" + i) as HTMLImageElement).src = "../../assets/images-events/" + imagesArray[i];
+          (document.getElementById("image" + i) as HTMLImageElement).style.visibility = "visible";
+        }
       }
     } else {
-      this.title = "Something went wrong"
+      this.title = "Er ging iet mis";
     }
     
   }
