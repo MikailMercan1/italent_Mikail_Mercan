@@ -23,6 +23,8 @@ export class EventComponent implements OnInit {
   ngOnInit(): void {
     
     this.data = this.dataService.data;
+    console.log('data')
+    console.log(this.data)
     this.dataService.data = undefined;
     for (let activity of this.products){
       if(activity.name == this.data){

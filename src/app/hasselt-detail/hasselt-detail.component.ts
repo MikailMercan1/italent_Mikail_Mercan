@@ -12,7 +12,7 @@ export class HasseltDetailComponent implements OnInit {
 
   products = (jsonData as any).default;
 
-  colors = ["#99ff99", "#66ffff", "#9999ff", "#ff99cc", "#ffff66 ", "#ccff66"]
+  colors = ["#99ff99", "#66ffff", "#9999ff", "#ff99cc", "#ffff66 ", "#ccff66", "#66ffff"]
   events = []
 
   constructor(private router: Router, private dataService: DataService) { }
@@ -47,6 +47,8 @@ export class HasseltDetailComponent implements OnInit {
 
   openEvent(event: string){
     this.dataService.data = event
+    console.log('logging event')
+    console.log(event)
     this.router.navigate(['/event'])
   }
 
