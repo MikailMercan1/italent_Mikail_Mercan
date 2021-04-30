@@ -134,7 +134,7 @@ class XFactorComponent {
     }
 }
 XFactorComponent.ɵfac = function XFactorComponent_Factory(t) { return new (t || XFactorComponent)(); };
-XFactorComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: XFactorComponent, selectors: [["app-x-factor"]], decls: 18, vars: 0, consts: [["id", "containDiv", 1, "custom-div"], [1, "container", "container-div", "custom-width"], ["id", "infoText", 1, "center-head"], [1, "row"], ["src", "../../assets/images/xfactor_3.PNG", 1, "centered", "logo"], [1, "row", "title-div"], ["id", "chosenItem", 1, "title-p"], [1, "col-2"], [1, "col-8", "under"], ["id", "text", 1, "text-left"], [1, "warning-text-div", "center-div"], [1, "center-text", "style"]], template: function XFactorComponent_Template(rf, ctx) { if (rf & 1) {
+XFactorComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: XFactorComponent, selectors: [["app-x-factor"]], decls: 18, vars: 0, consts: [["id", "containDiv", 1, "custom-div"], [1, "container", "container-div", "custom-width"], ["id", "infoText", 1, "center-head"], [1, "row"], ["src", "../../italent_Mikail_Mercan/assets/images/xfactor_3.PNG", 1, "centered", "logo"], [1, "row", "title-div"], ["id", "chosenItem", 1, "title-p"], [1, "col-2"], [1, "col-8", "under"], ["id", "text", 1, "text-left"], [1, "warning-text-div", "center-div"], [1, "center-text", "style"]], template: function XFactorComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "p", 2);
@@ -416,8 +416,8 @@ class SintTruidenDetailComponent {
         this.events = [];
     }
     ngOnInit() {
-        document.getElementById('banner1').style.backgroundImage = "url('../../assets/images/st_banner_2.jpg')";
-        document.getElementById('banner2').style.backgroundImage = "url('../../assets/images/st_banner_1.jpg')";
+        document.getElementById('banner1').style.backgroundImage = "url('../../italent_Mikail_Mercan/assets/images/st_banner_2.jpg')";
+        document.getElementById('banner2').style.backgroundImage = "url('../../italent_Mikail_Mercan/assets/images/st_banner_1.jpg')";
         for (let activity of this.products) {
             if (activity.location == "Sint-Truiden") {
                 let event = new Activity(activity.name, activity.selected);
@@ -447,7 +447,7 @@ class SintTruidenDetailComponent {
     }
 }
 SintTruidenDetailComponent.ɵfac = function SintTruidenDetailComponent_Factory(t) { return new (t || SintTruidenDetailComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_data_service__WEBPACK_IMPORTED_MODULE_3__["DataService"])); };
-SintTruidenDetailComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: SintTruidenDetailComponent, selectors: [["app-sint-truiden-detail"]], decls: 21, vars: 0, consts: [[1, "container-fluid", "container-div"], [1, "row", "row-custom"], ["id", "banner1", 1, "col-2", "no-padding", "banner-left"], [1, "col-8", "no-padding"], [1, "row"], [1, "sint-truiden-logo-div"], ["src", "../../assets/images/sint-truiden-logo.png", 1, "sint-truiden-logo"], [1, "row", "sint-truiden-text-div", "center-items"], [1, "font-italic"], [1, "row", "center-items", "end-of-page-div"], ["src", "../../assets/images/end_of_page.png", 1, "end-of-page-image"], [1, "row", "w-100"], [1, "container"], [1, "row", "center-cards"], ["id", "card0", 1, "col-sm", "card", "text-white", "h4"], ["id", "card1", 1, "col-sm", "card", "text-white", "h4"], ["id", "card2", 1, "col-sm", "card", "text-white", "h4"], ["id", "card3", 1, "col-sm", "card", "text-white", "h4"], ["id", "banner2", 1, "col-2", "no-padding", "banner-right"]], template: function SintTruidenDetailComponent_Template(rf, ctx) { if (rf & 1) {
+SintTruidenDetailComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: SintTruidenDetailComponent, selectors: [["app-sint-truiden-detail"]], decls: 21, vars: 0, consts: [[1, "container-fluid", "container-div"], [1, "row", "row-custom"], ["id", "banner1", 1, "col-2", "no-padding", "banner-left"], [1, "col-8", "no-padding"], [1, "row"], [1, "sint-truiden-logo-div"], ["src", "../../italent_Mikail_Mercan/assets/images/sint-truiden-logo.png", 1, "sint-truiden-logo"], [1, "row", "sint-truiden-text-div", "center-items"], [1, "font-italic"], [1, "row", "center-items", "end-of-page-div"], ["src", "../../italent_Mikail_Mercan/assets/images/end_of_page.png", 1, "end-of-page-image"], [1, "row", "w-100"], [1, "container"], [1, "row", "center-cards"], ["id", "card0", 1, "col-sm", "card", "text-white", "h4"], ["id", "card1", 1, "col-sm", "card", "text-white", "h4"], ["id", "card2", 1, "col-sm", "card", "text-white", "h4"], ["id", "card3", 1, "col-sm", "card", "text-white", "h4"], ["id", "banner2", 1, "col-2", "no-padding", "banner-right"]], template: function SintTruidenDetailComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "div", 2);
@@ -600,8 +600,8 @@ class BrusselsDetailComponent {
         this.events = [];
     }
     ngOnInit() {
-        document.getElementById('banner2').style.backgroundImage = "url('../../assets/images/br_banner_2.jpg')";
-        document.getElementById('banner1').style.backgroundImage = "url('../../assets/images/br_banner_1.jpg')";
+        document.getElementById('banner2').style.backgroundImage = "url('../../italent_Mikail_Mercan/assets/images/br_banner_2.jpg')";
+        document.getElementById('banner1').style.backgroundImage = "url('../../italent_Mikail_Mercan/assets/images/br_banner_1.jpg')";
         for (let activity of this.products) {
             if (activity.location == "Brussel") {
                 let event = new Activity(activity.name, activity.selected);
@@ -630,7 +630,7 @@ class BrusselsDetailComponent {
     }
 }
 BrusselsDetailComponent.ɵfac = function BrusselsDetailComponent_Factory(t) { return new (t || BrusselsDetailComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_data_service__WEBPACK_IMPORTED_MODULE_3__["DataService"])); };
-BrusselsDetailComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: BrusselsDetailComponent, selectors: [["app-brussels-detail"]], decls: 17, vars: 0, consts: [[1, "container-fluid", "container-div"], [1, "row", "row-custom"], ["id", "banner1", 1, "col-2", "no-padding", "banner-left"], [1, "col-8", "no-padding"], [1, "row"], [1, "brussels-logo-div"], ["src", "../../assets/images/br_logo.png", 1, "brussels-logo"], [1, "row", "brussels-text-div", "center-items"], [1, "font-italic"], [1, "row", "center-items", "end-of-page-div"], ["src", "../../assets/images/end_of_page.png", 1, "end-of-page-image"], [1, "row", "w-100"], [1, "container"], [1, "row", "center-cards"], ["id", "card0", 1, "col-sm", "card", "text-white", "h4"], ["id", "banner2", 1, "col-2", "no-padding", "banner-right"]], template: function BrusselsDetailComponent_Template(rf, ctx) { if (rf & 1) {
+BrusselsDetailComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: BrusselsDetailComponent, selectors: [["app-brussels-detail"]], decls: 17, vars: 0, consts: [[1, "container-fluid", "container-div"], [1, "row", "row-custom"], ["id", "banner1", 1, "col-2", "no-padding", "banner-left"], [1, "col-8", "no-padding"], [1, "row"], [1, "brussels-logo-div"], ["src", "../../italent_Mikail_Mercan/assets/images/br_logo.png", 1, "brussels-logo"], [1, "row", "brussels-text-div", "center-items"], [1, "font-italic"], [1, "row", "center-items", "end-of-page-div"], ["src", "../../italent_Mikail_Mercan/assets/images/end_of_page.png", 1, "end-of-page-image"], [1, "row", "w-100"], [1, "container"], [1, "row", "center-cards"], ["id", "card0", 1, "col-sm", "card", "text-white", "h4"], ["id", "banner2", 1, "col-2", "no-padding", "banner-right"]], template: function BrusselsDetailComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "div", 2);
@@ -834,7 +834,7 @@ class EventComponent {
                 this.photos = "Afbeeldingen";
                 for (var i = 0; i < imagesArray.length; i++) {
                     console.log(imagesArray[i] + "");
-                    document.getElementById("image" + i).src = "../../assets/images-events/" + imagesArray[i];
+                    document.getElementById("image" + i).src = "../../italent_Mikail_Mercan/assets/images-events/" + imagesArray[i];
                     document.getElementById("image" + i).style.visibility = "visible";
                 }
             }
@@ -927,8 +927,8 @@ class HasseltDetailComponent {
         this.events = [];
     }
     ngOnInit() {
-        document.getElementById('banner1').style.backgroundImage = "url('../../assets/images/ha_banner_2.jpg')";
-        document.getElementById('banner2').style.backgroundImage = "url('../../assets/images/ha_banner_1.png')";
+        document.getElementById('banner1').style.backgroundImage = "url('../../italent_Mikail_Mercan/assets/images/ha_banner_2.jpg')";
+        document.getElementById('banner2').style.backgroundImage = "url('../../italent_Mikail_Mercan/assets/images/ha_banner_1.png')";
         for (let activity of this.products) {
             if (activity.location == "Hasselt") {
                 let event = new Activity(activity.name, activity.selected);
@@ -959,7 +959,7 @@ class HasseltDetailComponent {
     }
 }
 HasseltDetailComponent.ɵfac = function HasseltDetailComponent_Factory(t) { return new (t || HasseltDetailComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_data_service__WEBPACK_IMPORTED_MODULE_3__["DataService"])); };
-HasseltDetailComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: HasseltDetailComponent, selectors: [["app-hasselt-detail"]], decls: 26, vars: 0, consts: [[1, "container-fluid", "container-div"], [1, "row", "row-custom"], ["id", "banner1", 1, "col-2", "no-padding", "banner-left"], [1, "col-8", "no-padding"], [1, "row"], [1, "hasselt-logo-div"], ["src", "../../assets/images/Hasselt-heeft-het-logo-zwart_hires-min.png", 1, "hasselt-logo"], [1, "row", "hasselt-text-div", "center-items"], [1, "font-italic"], [1, "row", "center-items", "end-of-page-div"], ["src", "../../assets/images/end_of_page.png", 1, "end-of-page-image"], [1, "row", "w-100"], [1, "container"], [1, "row", "center-cards"], ["id", "card0", 1, "col-sm", "card", "text-white", "h4"], ["id", "card1", 1, "col-sm", "card", "text-white", "h4"], ["id", "card2", 1, "col-sm", "card", "text-white", "h4"], ["id", "card3", 1, "col-sm", "card", "text-white", "h4"], ["id", "card4", 1, "col-sm", "card", "text-white", "h4"], ["id", "card5", 1, "col-sm", "card", "text-white", "h4"], ["id", "card6", 1, "col-sm", "card", "text-white", "h4"], ["id", "banner2", 1, "col-2", "no-padding", "banner-right"]], template: function HasseltDetailComponent_Template(rf, ctx) { if (rf & 1) {
+HasseltDetailComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: HasseltDetailComponent, selectors: [["app-hasselt-detail"]], decls: 26, vars: 0, consts: [[1, "container-fluid", "container-div"], [1, "row", "row-custom"], ["id", "banner1", 1, "col-2", "no-padding", "banner-left"], [1, "col-8", "no-padding"], [1, "row"], [1, "hasselt-logo-div"], ["src", "../../italent_Mikail_Mercan/assets/images/Hasselt-heeft-het-logo-zwart_hires-min.png", 1, "hasselt-logo"], [1, "row", "hasselt-text-div", "center-items"], [1, "font-italic"], [1, "row", "center-items", "end-of-page-div"], ["src", "../../italent_Mikail_Mercan/assets/images/end_of_page.png", 1, "end-of-page-image"], [1, "row", "w-100"], [1, "container"], [1, "row", "center-cards"], ["id", "card0", 1, "col-sm", "card", "text-white", "h4"], ["id", "card1", 1, "col-sm", "card", "text-white", "h4"], ["id", "card2", 1, "col-sm", "card", "text-white", "h4"], ["id", "card3", 1, "col-sm", "card", "text-white", "h4"], ["id", "card4", 1, "col-sm", "card", "text-white", "h4"], ["id", "card5", 1, "col-sm", "card", "text-white", "h4"], ["id", "card6", 1, "col-sm", "card", "text-white", "h4"], ["id", "banner2", 1, "col-2", "no-padding", "banner-right"]], template: function HasseltDetailComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "div", 2);
@@ -1134,7 +1134,7 @@ class BelgiumMapComponent {
         ];
     }
     ngOnInit() {
-        document.getElementById('map').src = '../../assets/images/belgium_map.png';
+        document.getElementById('map').src = '../../italent_Mikail_Mercan/assets/images/belgium_map.png';
         this.putDotsOnMap();
         document.getElementById("eventDiv").style.visibility = "hidden";
     }
