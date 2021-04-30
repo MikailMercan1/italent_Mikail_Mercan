@@ -1,7 +1,6 @@
 import { htmlAstToRender3Ast } from '@angular/compiler/src/render3/r3_template_transform';
 import { Component, OnInit } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
-import Draggable from "gsap/Draggable"; 
 import * as jsonData from '../../assets/data-xfactor/xfactor.json';
 
 @Component({
@@ -13,10 +12,44 @@ export class XFactorComponent implements OnInit {
 
   currentFeature: string;
   feature: string;
-  products: any;
+
+  products = (jsonData as any).default;
+  counter = 0
+
+  
 
   ngOnInit(): void {
-    const draggable = Draggable.create("#outer-circle", {
+    this.prepareWindow();
+    
+  }
+
+  prepareWindow(){
+    document.getElementById("containDiv").addEventListener("click", (e:Event) => this.changeContent());
+  }
+  
+  changeContent(){
+    document.getElementById("infoText").style.visibility = "hidden"
+    document.getElementById("text").innerHTML = this.products[this.counter].text;
+    document.getElementById("chosenItem").innerHTML = this.products[this.counter].name;
+    console.log(this.counter)
+    if(this.counter == 3){
+      this.counter = -1
+    }
+    this.counter += 1;
+    
+    
+    
+  }
+  
+
+}
+  
+  
+
+  
+  
+  
+    /*const draggable = Draggable.create("#outer-circle", {
       type: "rotation",
       inertia: true,
       onThrowComplete: function(){
@@ -96,3 +129,4 @@ export class XFactorComponent implements OnInit {
     });
     }
   }
+*/
