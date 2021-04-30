@@ -36,7 +36,7 @@ export class BelgiumMapComponent implements OnInit {
 
   ngOnInit(): void {
 
-    (document.getElementById('map') as HTMLImageElement).src = '../../assets/images/belgium_map.png';
+    (document.getElementById('map') as HTMLImageElement).src = '../../italent_Mikail_Mercan/assets/images/belgium_map.png';
 
 
     this.putDotsOnMap();

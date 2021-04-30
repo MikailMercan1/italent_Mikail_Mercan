@@ -42,7 +42,7 @@ export class EventComponent implements OnInit {
         this.photos = "Afbeeldingen"
         for(var i = 0; i < imagesArray.length; i++) {
           console.log(imagesArray[i] + "");
-          (document.getElementById("image" + i) as HTMLImageElement).src = "../../assets/images-events/" + imagesArray[i];
+          (document.getElementById("image" + i) as HTMLImageElement).src = "../../italent_Mikail_Mercan/assets/images-events/" + imagesArray[i];
           (document.getElementById("image" + i) as HTMLImageElement).style.visibility = "visible";
         }
       }

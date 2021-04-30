@@ -18,8 +18,8 @@ export class HasseltDetailComponent implements OnInit {
   constructor(private router: Router, private dataService: DataService) { }
 
   ngOnInit(): void {
-    document.getElementById('banner1').style.backgroundImage = "url('../../assets/images/ha_banner_2.jpg')";
-    document.getElementById('banner2').style.backgroundImage = "url('../../assets/images/ha_banner_1.png')" ;
+    document.getElementById('banner1').style.backgroundImage = "url('../../italent_Mikail_Mercan/assets/images/ha_banner_2.jpg')";
+    document.getElementById('banner2').style.backgroundImage = "url('../../italent_Mikail_Mercan/assets/images/ha_banner_1.png')" ;
     for (let activity of this.products) {
       if(activity.location == "Hasselt"){
         let event = new Activity(activity.name, activity.selected)

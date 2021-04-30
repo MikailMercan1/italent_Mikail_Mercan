@@ -19,8 +19,8 @@ export class SintTruidenDetailComponent implements OnInit {
   constructor(private router: Router, private dataService: DataService) { }
 
   ngOnInit(): void {
-    document.getElementById('banner1').style.backgroundImage = "url('../../assets/images/st_banner_2.jpg')";
-    document.getElementById('banner2').style.backgroundImage = "url('../../assets/images/st_banner_1.jpg')" ;
+    document.getElementById('banner1').style.backgroundImage = "url('../../italent_Mikail_Mercan/assets/images/st_banner_2.jpg')";
+    document.getElementById('banner2').style.backgroundImage = "url('../../italent_Mikail_Mercan/assets/images/st_banner_1.jpg')" ;
     for (let activity of this.products) {
       if(activity.location == "Sint-Truiden"){
         let event = new Activity(activity.name, activity.selected)
